@@ -1,0 +1,13 @@
+package selenium;
+
+public class Withoutlength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="testing";
+str=str+"t";
+int n=str.lastIndexOf("t");
+System.out.println(n);
+	}
+
+}
