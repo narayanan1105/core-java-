@@ -1,0 +1,20 @@
+package selenium;
+
+public class Swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String x ="kamal";
+String y="subramani";
+x=x+y;
+y=x.substring(0,x.length()-y.length());
+x=x.substring(y.length());
+
+System.out.println(x);
+System.out.println(y);
+
+
+
+	}
+
+}
