@@ -1,0 +1,21 @@
+package selenium;
+
+public class Duplicatearray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String [] str={"ab","cd","ef","gh","ab","cd","ef","samy"};
+for(int i=0;i<str.length-1;i++)
+{ 
+	for(int j=i+1;j<str.length;j++)
+	{
+		if((str[i].equals(str[j]))&& (i!=j))
+		{
+			System.out.println("Duplicate elements:"+str[j]);
+			
+		}
+	}
+}
+	}
+
+}
