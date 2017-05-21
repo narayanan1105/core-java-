@@ -1,0 +1,12 @@
+package selenium;
+
+public class Removevowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="pAyilakam";
+String n=str.replaceAll("[AEIOUaeiou]","");
+System.out.println(n);
+	}
+
+}
